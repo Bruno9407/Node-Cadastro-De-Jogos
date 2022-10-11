@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="http://localhost:3000/cadastro" method="get">
+
+        <fieldset>
+            <Legend>Cadastrar jogos via GET</Legend>
+            <div>
+                <label for="jogo">jogo: </label>
+                <input id="jogo" name="jogo" type="text" placeholder="Nome do jogo">
+            </div>
+            <div>
+                <label for="categoria">Descrição:</label>
+                <textarea id="categoria" name="categoria" type="text" placeholder="Descrição do jogo" maxlength="220"></textarea>
+            </div>
+            <div>
+                <label for="valor">Valor:</label>
+                <input id="valor" type="text" name="valor" placeholder="Valor do jogo">
+            </div>
+            <button type="submit">Cadastrar</button>
+
+        </fieldset>
+    </form>
+
+    <form action="http://localhost:3000/cadastro" method="post">
+
+        <fieldset>
+            <Legend>Cadastrar jogos via POST</Legend>
+            <div>
+                <label for="jogo">jogo: </label>
+                <input id="jogo" name="jogo" type="text" placeholder="Nome do jogo">
+            </div>
+            <div>
+                <label for="categoria">Descrição:</label>
+                <textarea id="categoria" name="categoria" type="text" placeholder="Descrição do jogo" maxlength="220"></textarea>
+            </div>
+            <div>
+                <label for="valor">Valor:</label>
+                <input id="valor" type="text" name="valor" placeholder="Valor do jogo">
+            </div>
+            <button type="submit">Cadastrar</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
