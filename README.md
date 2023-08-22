@@ -9,3 +9,6 @@
 <p>Entre na pasta server e execute no terminal: "npm install".</p> 
 <p>No arquivo "app.js" mude os valores no "db" para os seu sistema</p>
 <p>Por ultimo execute no terminal: "node app.js"</p>
+
+
+<h2>OBS: novo projeto baseado neste está em produção, aguardem...</h2>
